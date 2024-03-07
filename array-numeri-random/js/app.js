@@ -21,6 +21,9 @@ for (let iterations = 1; iterations <= 7; iterations++) {
     numbers.push(randomNumber);
 }
 
+// stampo in console tutto l'array
+console.log(numbers);
+
 // resto in ascolto per l'evento click sul mio button
 searchButtonDOMElement.addEventListener('click', function () {
 
